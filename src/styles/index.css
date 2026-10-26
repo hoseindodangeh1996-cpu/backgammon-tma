@@ -1,0 +1,52 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply m-0 min-h-tg bg-night font-sans text-cream overflow-hidden;
+    overscroll-behavior: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  #root {
+    @apply min-h-tg w-full;
+  }
+
+  button {
+    @apply touch-manipulation;
+  }
+}
+
+@layer components {
+  .screen-shell {
+    @apply relative flex min-h-tg w-full flex-col
+      pt-safe-top pb-safe-bottom pl-safe-left pr-safe-right;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-12 w-full max-w-sm items-center justify-center
+      rounded-xl bg-wood px-6 py-3 text-base font-semibold text-cream
+      shadow-board transition active:scale-[0.98]
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex min-h-11 items-center justify-center rounded-xl
+      border border-gold/30 bg-transparent px-5 py-2.5 text-sm font-medium
+      text-gold-soft transition active:scale-[0.98];
+  }
+
+  .panel-wood {
+    @apply rounded-2xl border border-wood-light/30 bg-wood-deep/70 shadow-board;
+  }
+}

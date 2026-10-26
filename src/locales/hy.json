@@ -1,0 +1,101 @@
+{
+  "app": {
+    "title": "Նարդ",
+    "tagline": "Հայկական թավլա Telegram-ում",
+    "loading": "Բեռնվում է…",
+    "version": "տարբերակ {{version}}"
+  },
+  "intro": {
+    "skip": "Բաց թողնել",
+    "tapToContinue": "Շարունակելու համար հպեք",
+    "webglFallback": "Ցուցադրվում է պարզեցված ներածությունը"
+  },
+  "menu": {
+    "play": "Խաղալ",
+    "playVsAi": "Խաղալ Ռոբոտի հետ",
+    "playVsAiHint": "Մենախաղ արհեստական բանականության դեմ",
+    "playLocal": "Խաղալ Ընկերոջ հետ",
+    "playLocalHint": "Երկու խաղացող՝ նույն սարքով",
+    "settings": "Կարգավորումներ",
+    "settingsHint": "Ձայն, թրթռոց և այլն",
+    "howToPlay": "Ինչպես խաղալ",
+    "about": "Մեր մասին",
+    "welcome": "Բարի գալուստ, {{name}}"
+  },
+  "setup": {
+    "title": "Խաղի կարգավորում",
+    "subtitleAi": "Ընտրեք մակարդակը և գույնը",
+    "start": "Սկսել խաղը",
+    "back": "Հետ",
+    "difficulty": "Դժվարություն",
+    "easy": "Հեշտ",
+    "medium": "Միջին",
+    "hard": "Դժվար",
+    "chooseColor": "Ընտրեք գույնը",
+    "colorWhite": "Սպիտակ",
+    "colorBlack": "Սև",
+    "youPlayAs": "Դուք խաղում եք որպես"
+  },
+  "game": {
+    "yourTurn": "Ձեր հերթն է",
+    "opponentTurn": "Մրցակցի հերթն է",
+    "friendTurn": "Ընկերոջ հերթն է",
+    "whiteTurn": "Սպիտակի քայլն է",
+    "blackTurn": "Սևի քայլն է",
+    "aiThinking": "Համակարգիչը մտածում է…",
+    "aiOpponent": "Ռոբոտ",
+    "localMatch": "Տեղական խաղ",
+    "difficultyLabel": "{{level}}",
+    "roll": "Զառեր",
+    "rollDice": "Նետել զառերը",
+    "undo": "Հետarkel",
+    "resign": "Հանձնվել",
+    "exit": "Ելք",
+    "confirmExit": "Դուրս գալ խաղից՞",
+    "bar": "Միջին գիծ",
+    "home": "Տուն",
+    "point": "Դաշտ {{n}}",
+    "hit": "Խփված",
+    "bearOff": "Դուրս բերել",
+    "noMoves": "Հնարավոր քայլեր չկան",
+    "illegalMove": "Անթույլատրելի քայլ",
+    "doublingDisabled": "Կրկնապատկման խորանարդն անջատված է",
+    "youWin": "Դու հաղթեցիր 🎉",
+    "youLose": "Դու պարտվեցիր",
+    "whiteWins": "Սպիտակը հաղթեց",
+    "blackWins": "Սևը հաղթեց",
+    "draw": "Ոչ-ոքի",
+    "playAgain": "Խաղալ նորից",
+    "backToMenu": "Գլխավոր մենյու",
+    "menu": "Մենյու",
+    "newGame": "Նոր խաղ"
+  },
+  "settings": {
+    "title": "Կարգավորումներ",
+    "sound": "Ձայն",
+    "haptics": "Թրթռոց",
+    "reducedMotion": "Պակաս շարժում",
+    "showIntro": "Ցուցադրել ներածությունը",
+    "language": "Լեզու",
+    "languageHy": "Հայերեն",
+    "on": "Միացված",
+    "off": "Անջատված",
+    "back": "Հետ",
+    "resetPrefs": "Վերականգնել կարգավորումները"
+  },
+  "common": {
+    "yes": "Այո",
+    "no": "Ոչ",
+    "ok": "Լավ",
+    "cancel": "Չեղարկել",
+    "close": "Փակել",
+    "continue": "Շարունակել",
+    "error": "Սխալ",
+    "retry": "Կրկին փորձել"
+  },
+  "errors": {
+    "webgl": "3D-ն հասանելի չէ այս սարքում",
+    "telegram": "Telegram միջավայրը չի հայտնաբերվել",
+    "generic": "Ինչ-որ բան սխալ է գնացել"
+  }
+}

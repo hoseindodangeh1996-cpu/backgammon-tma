@@ -1,0 +1,38 @@
+/**
+ * Design tokens — Armenian Nard TMA
+ * RGB channel triplets enable Tailwind opacity modifiers (e.g. bg-gold/20).
+ * Telegram theme vars synced at runtime in telegram.ts.
+ */
+:root {
+  /* Brand (R G B) */
+  --color-ink: 12 10 8;
+  --color-night: 18 16 14;
+  --color-wood: 107 63 36;
+  --color-wood-deep: 61 36 20;
+  --color-wood-light: 160 103 58;
+  --color-gold: 212 175 55;
+  --color-gold-soft: 232 212 139;
+  --color-felt: 26 61 46;
+  --color-cream: 243 230 208;
+  --color-danger: 192 57 43;
+
+  /* Typography — Armenian-capable stacks */
+  --font-display: 'Noto Serif Armenian', 'Noto Sans Armenian', Georgia, serif;
+  --font-sans: 'Noto Sans Armenian', 'Segoe UI', system-ui, sans-serif;
+
+  /* Safe areas (overridden from Telegram / CSS env) */
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+
+  /* Telegram theme defaults (hex OK — no opacity modifiers needed) */
+  --tg-bg: #12100e;
+  --tg-text: #f3e6d0;
+  --tg-hint: #9a8f7e;
+  --tg-link: #d4af37;
+  --tg-button: #6b3f24;
+  --tg-button-text: #f3e6d0;
+  --tg-secondary: #2a2420;
+  --tg-viewport-stable-height: 100dvh;
+}
